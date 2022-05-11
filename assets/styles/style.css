@@ -1,5 +1,11 @@
-h4, p, li, th, td{
+p, li, th, td{
     color: gray;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 #container{
@@ -12,23 +18,63 @@ h4, p, li, th, td{
 #contact{
     width: 30%;
     border-right: 1px solid gray;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    height: 100vh;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#contact-info{
+#contact-container{
     width: 80%;
-    margin: 0 auto;
+    margin-top: 70px;
+}
+
+#profile-photo{
+    display: flex;
+    justify-content: center;
 }
 
 #pp{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+#contact-details{
+    width: 75%;
+    margin: 30px auto;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+#contact-details h4 span{
+    margin-left: 10px;
+    color: gray;
+}
+
+#contact-details h4 span a{
+    text-decoration: none;
+    color: gray;
 }
 
 #info{
     width: 70%;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#info-container{
+    width: 90%;
+    margin: 70px auto;
+}
+
+#info-container div{
+    margin-bottom: 70px;
+}
+
+#education table{
+    table-layout: auto;
+    width: 100%;
+    text-align: left;
 }
